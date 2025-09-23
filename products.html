@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محصولات - شرکت پترو آذر آسیا</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- نوار بارگزاری -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- نوار بالایی -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <span><i class="fas fa-phone"></i> 09140513427</span>
+                        <span><i class="fas fa-envelope"></i> petroazarasia23@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- نوار ناوبری -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="پترو آذر آسیا" height="50">
+                <span>پترو آذر آسیا</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">خدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- هدر صفحه -->
+    <header class="page-header py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>محصولات پترو آذر آسیا</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">خانه</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">محصولات</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- بخش فیلتر محصولات -->
+    <section class="product-filter py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center flex-wrap">
+                        <button class="btn btn-outline-primary m-1 filter-button active" data-filter="all">همه محصولات</button>
+                        <button class="btn btn-outline-primary m-1 filter-button" data-filter="polyethylene">پلی اتیلن</button>
+                        <button class="btn btn-outline-primary m-1 filter-button" data-filter="polypropylene">پلی پروپیلن</button>
+                        <button class="btn btn-outline-primary m-1 filter-button" data-filter="pvc">پی وی سی</button>
+                        <button class="btn btn-outline-primary m-1 filter-button" data-filter="polystyrene">پلی استایرن</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش محصولات -->
+    <section class="products-section py-5">
+        <div class="container">
+            <div class="row" id="product-container">
+                <!-- محصول 1 -->
+                <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="polyethylene">
+                    <div class="card product-card h-100">
+                        <img src="images/product1.jpg" class="card-img-top" alt="پلی اتیلن سنگین">
+                        <div class="card-body">
+                            <h5 class="card-title">پلی اتیلن سنگین (HDPE)</h5>
+                            <p class="card-text">پلی اتیلن سنگین با چگالی بالا، مقاومت عالی در برابر مواد شیمیایی و ضربه، مناسب برای تولید لوله، اتصالات و ظروف بسته‌بندی.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> چگالی: 0.941-0.965 g/cm³</li>
+                                <li><i class="fas fa-check"></i> مقاومت شیمیایی عالی</li>
+                                <li><i class="fas fa-check"></i> استحکام مکانیکی بالا</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#productModal1">جزئیات بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محصول 2 -->
+                <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="polyethylene">
+                    <div class="card product-card h-100">
+                        <img src="images/product2.jpg" class="card-img-top" alt="پلی اتیلن سبک">
+                        <div class="card-body">
+                            <h5 class="card-title">پلی اتیلن سبک (LDPE)</h5>
+                            <p class="card-text">پلی اتیلن سبک با چگالی پایین، انعطاف‌پذیری بالا و شفافیت خوب، مناسب برای تولید فیلم، نایلون و محصولات تزریقی.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> چگالی: 0.910-0.940 g/cm³</li>
+                                <li><i class="fas fa-check"></i> انعطاف‌پذیری بالا</li>
+                                <li><i class="fas fa-check"></i> شفافیت خوب</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#productModal2">جزئیات بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محصول 3 -->
+                <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="polypropylene">
+                    <div class="card product-card h-100">
+                        <img src="images/product3.jpg" class="card-img-top" alt="پلی پروپیلن هموپلیمر">
+                        <div class="card-body">
+                            <h5 class="card-title">پلی پروپیلن هموپلیمر (PP-H)</h5>
+                            <p class="card-text">پلی پروپیلن هموپلیمر با استحکام بالا، مقاومت حرارتی خوب و قیمت مناسب، کاربرد گسترده‌ای در صنایع مختلف دارد.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> نقطه ذوب: 160-165°C</li>
+                                <li><i class="fas fa-check"></i> استحکام کششی بالا</li>
+                                <li><i class="fas fa-check"></i> مقاومت حرارتی خوب</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#productModal3">جزئیات بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محصول 4 -->
+                <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="polypropylene">
+                    <div class="card product-card h-100">
+                        <img src="images/product4.jpg" class="card-img-top" alt="پلی پروپیلن کوپلیمر">
+                        <div class="card-body">
+                            <h5 class="card-title">پلی پروپیلن کوپلیمر (PP-C)</h5>
+                            <p class="card-text">پلی پروپیلن کوپلیمر با انعطاف‌پذیری بهتر و مقاومت ضربه‌ای بالاتر، برای تولید محصولات با نیاز به چقرمگی بیشتر مناسب است.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> چقرمگی و انعطاف‌پذیری بالا</li>
+                                <li><i class="fas fa-check"></i> مقاومت ضربه‌ای عالی</li>
+                                <li><i class="fas fa-check"></i> مقاومت در برابر ترک‌خوردگی</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#productModal4">جزئیات بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محصول 5 -->
+                <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="pvc">
+                    <div class="card product-card h-100">
+                        <img src="images/product5.jpg" class="card-img-top" alt="پی وی سی سخت">
+                        <div class="card-body">
+                            <h5 class="card-title">پی وی سی سخت (UPVC)</h5>
+                            <p class="card-text">پی وی سی سخت بدون نرم‌کننده، با استحکام尺寸ی بالا و مقاومت شیمیایی عالی،主要用于生产管道、门窗型材和 fittings.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> استحکام尺寸ی بالا</li>
+                                <li><i class="fas fa-check"></i> مقاومت شیمیایی عالی</li>
+                                <li><i class="fas fa-check"></i> مقاومت در برابر آتش</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#productModal5">جزئیات بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- محصول 6 -->
+                <div class="col-lg-4 col-md-6 mb-4 product-item" data-category="pvc">
+                    <div class="card product-card h-100">
+                        <img src="images/product6.jpg" class="card-img-top" alt="پی وی سی نرم">
+                        <div class="card-body">
+                            <h5 class="card-title">پی وی سی نرم (PPVC)</h5>
+                            <p class="card-text">پی وی سی نرم با افزودن نرم‌کننده، انعطاف‌پذیری بالا و قابلیت کشش خوب،适合生产 کابل, کفپوش و محصولات پزشکی.</p>
+                            <ul class="product-features">
+                                <li><i class="fas fa-check"></i> انعطاف‌پذیری بالا</li>
+                                <li><i class="fas fa-check"></i> مقاومت در برابر سایش</li>
+                                <li><i class="fas fa-check"></i> عایق الکتریکی خوب</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#productModal6">جزئیات بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- مودال‌های محصولات -->
+    <!-- مودال محصول 1 -->
+    <div class="modal fade" id="productModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">پلی اتیلن سنگین (HDPE)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/product1.jpg" class="img-fluid" alt="پلی اتیلن سنگین">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>ویژگی‌های فنی</h4>
+                            <ul>
+                                <li>چگالی: 0.941-0.965 g/cm³</li>
+                                <li>درجه ذوب: 0.7-30 g/10min</li>
+                                <li>استحکام کششی: 21-38 MPa</li>
+                                <li>ازدیاد طول در پارگی: 200-1000%</li>
+                            </ul>
+                            <h4>کاربردها</h4>
+                            <ul>
+                                <li>لوله و اتصالات</li>
+                                <li>ظروف بسته‌بندی</li>
+                                <li>لوازم خانگی</li>
+                                <li>تزریق قطعات صنعتی</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+                    <button type="button" class="btn btn-primary">درخواست نمونه</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- سایر مودال‌ها به همین صورت -->
+
+    <!-- بخش دانلود کاتالوگ -->
+    <section class="catalog-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h3>کاتالوگ کامل محصولات</h3>
+                    <p>برای دریافت کاتالوگ کامل محصولات پترو آذر آسیا با مشخصات فنی و کاربردهای هر محصول، ایمیل خود را وارد کنید.</p>
+                </div>
+                <div class="col-md-4">
+                    <form class="catalog-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="ایمیل خود را وارد کنید">
+                            <button class="btn btn-primary" type="submit">دریافت کاتالوگ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="footer bg-dark text-white pt-5 pb-3">
+        <!-- مشابه فوتر صفحه اصلی -->
+    </footer>
+
+    <!-- دکمه بازگشت به بالا -->
+    <button id="backToTop" class="btn btn-primary">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+﻿/* استایل‌های واکنش‌گرا برای دستگاه‌های مختلف */
+
+/* تبلت - صفحه نمایش متوسط */
+@media (max-width: 991.98px) {
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .footer .col-lg-3,
+    .footer .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
+
+/* موبایل - صفحه نمایش کوچک */
+@media (max-width: 767.98px) {
+    .top-bar .contact-info,
+    .top-bar .social-links {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .top-bar .contact-info span {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    .carousel-item {
+        height: 300px;
+    }
+    
+    .carousel-caption {
+        bottom: 20px;
+        transform: none;
+        padding: 15px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.9rem;
+        margin: 10px 0;
+    }
+    
+    .carousel-caption .btn {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .stat-item {
+        margin-bottom: 30px;
+    }
+    
+    .stat-item h3 {
+        font-size: 2rem;
+    }
+    
+    .product-card,
+    .news-card,
+    .service-card {
+        margin-bottom: 20px;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .process-step {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .step-number {
+        margin: 0 auto 15px;
+    }
+    
+    .contact-form-section .card-body {
+        padding: 20px;
+    }
+    
+    .map-container iframe {
+        height: 300px;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
+    .footer .text-md-end {
+        text-align: center !important;
+    }
+}
+
+/* موبایل بسیار کوچک */
+@media (max-width: 575.98px) {
+    .navbar-brand span {
+        font-size: 1rem;
+    }
+    
+    .carousel-item {
+        height: 250px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 1.2rem;
+    }
+    
+    .carousel-caption p {
+        display: none;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .stat-item i {
+        font-size: 2rem;
+    }
+    
+    .stat-item h3 {
+        font-size: 1.5rem;
+    }
+    
+    .product-features li {
+        font-size: 0.8rem;
+    }
+    
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    
+    .card-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        margin: -25px auto 15px;
+    }
+    
+    .filter-button {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+        margin: 3px;
+    }
+}

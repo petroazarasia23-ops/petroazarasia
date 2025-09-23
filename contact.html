@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما - شرکت پترو آذر آسیا</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- نوار بارگزاری -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- نوار بالایی -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <span><i class="fas fa-phone"></i> 09140513427</span>
+                        <span><i class="fas fa-envelope"></i> petroazarasia23@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- نوار ناوبری -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="پترو آذر آسیا" height="50">
+                <span>پترو آذر آسیا</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">خدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- هدر صفحه -->
+    <header class="page-header py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>تماس با پترو آذر آسیا</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">خانه</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">تماس با ما</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- بخش اطلاعات تماس -->
+    <section class="contact-info-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card contact-card h-100">
+                        <div class="card-body text-center">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h5>آدرس</h5>
+                            <p>تهران، خیابان ولیعصر، پلاک ۱۰۰۰، ساختمان پترو آذر آسیا، طبقه پنجم</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card contact-card h-100">
+                        <div class="card-body text-center">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h5>تلفن</h5>
+                            <p>09140513427</p>
+                            <p>09140513427</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card contact-card h-100">
+                        <div class="card-body text-center">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h5>ایمیل</h5>
+                            <p>petroazarasia23@gmail.com</p>
+                            <p>petroazarasia23sales@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش فرم تماس -->
+    <section class="contact-form-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow">
+                        <div class="card-body p-5">
+                            <h3 class="text-center mb-4">فرم تماس با ما</h3>
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label">نام و نام خانوادگی</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">ایمیل</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="phone" class="form-label">تلفن تماس</label>
+                                        <input type="tel" class="form-control" id="phone">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="company" class="form-label">نام شرکت</label>
+                                        <input type="text" class="form-control" id="company">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">موضوع</label>
+                                    <select class="form-select" id="subject" required>
+                                        <option value="" selected disabled>انتخاب موضوع</option>
+                                        <option value="product">استعلام محصول</option>
+                                        <option value="service">درخواست خدمات</option>
+                                        <option value="complaint">شکایت و پیشنهاد</option>
+                                        <option value="partnership">همکاری و مشارکت</option>
+                                        <option value="other">سایر</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">پیام</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">ارسال پیام</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش نقشه -->
+    <section class="map-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <h2 class="section-title">موقعیت ما روی نقشه</h2>
+                    <p class="section-subtitle">دفتر مرکزی شرکت پترو آذر آسیا</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.847348582885!2d51.38831441522176!3d35.68919738019184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e0156d7d7941d%3A0x238d6c2c7b3d4a2b!2sValiasr%20St%2C%20Tehran%2C%20Iran!5e0!3m2!1sen!2s!4v1623932000000!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش سوالات متداول -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <h2 class="section-title">سوالات متداول</h2>
+                    <p class="section-subtitle">پاسخ به پرتکرارترین سوالات شما</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    چگونه می‌توانم از محصولات شرکت پترو آذر آسیا خریداری کنم؟
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    برای خرید محصولات می‌توانید از طریق فرم تماس با ما درخواست خود را ثبت کنید یا با بخش فروش به شماره 09140513427 تماس حاصل فرمایید. کارشناسان ما در اسرع وقت با شما تماس خواهند گرفت.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    آیا امکان دریافت نمونه محصول قبل از خرید وجود دارد؟
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    بله، برای برخی از محصولات امکان ارسال نمونه وجود دارد. برای دریافت اطلاعات بیشتر و درخواست نمونه، با بخش فروش تماس بگیرید.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    شرایط حمل و نقل محصولات چگونه است؟
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    شرکت پترو آذر آسیا با بهره‌گیری از ناوگان حمل و نقل مجهز، امکان ارسال محصولات به سراسر کشور را دارد. شرایط حمل و نقل بر اساس نوع محصول، مقصد و مقدار سفارش تعیین می‌شود.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    آیا شرکت پترو آذر آسیا خدمات پس از فروش ارائه می‌دهد؟
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    بله، شرکت پترو آذر آسیا خدمات پس از فروش شامل مشاوره فنی، پشتیبانی و راهنمایی در زمینه استفاده از محصولات را ارائه می‌دهد.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="footer bg-dark text-white pt-5 pb-3">
+        <!-- مشابه فوتر صفحه اصلی -->
+    </footer>
+
+    <!-- دکمه بازگشت به بالا -->
+    <button id="backToTop" class="btn btn-primary">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
