@@ -136,7 +136,7 @@
                     <div class="card shadow">
                         <div class="card-body p-5">
                             <h3 class="text-center mb-4">فرم تماس با ما</h3>
-                            <form name="contact" id="contactForm" method="POST" data-netlify="true" onSubmit="submit" action="/contact">
+                            <form name="contact" id="contactForm" method="POST" data-netlify="true" onSubmit="submit" action="/contact,html">
                                 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -151,7 +151,7 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="phone" class="form-label">تلفن تماس</label>
-                                        <input type="tel" class="form-control" name="phone" id="tel">
+                                        <input type="tel" class="form-control" name="tel" id="tel">
                                     </div>
                                     <div class="col-md-6 mb-3">
                                         <label for="company" class="form-label">نام شرکت</label>
@@ -160,7 +160,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="subject" class="form-label">موضوع</label>
-                                    <select class="form-select" id="subject" name="choice" required>
+                                    <select class="form-select" name="choice" id="subject"  required>
                                         <option value="" selected disabled>انتخاب موضوع</option>
                                         <option value="product">استعلام محصول</option>
                                         <option value="service">درخواست خدمات</option>
@@ -286,6 +286,7 @@
 </body>
 
 </html>
+
 
 
 
