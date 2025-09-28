@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تماس با ما - شرکت پترو آذر آسیا</title>
+    <title>تماس با ما - شرکت پتروآدراسیا</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -21,8 +21,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="contact-info">
-                        <span><i class="fas fa-phone"></i> 09140513427</span>
-                        <span><i class="fas fa-envelope"></i> petroazarasia23@gmail.com</span>
+                        <span><i class="fas fa-phone"></i> 021-12345678</span>
+                        <span><i class="fas fa-envelope"></i> info@petroadrasia.com</span>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -41,8 +41,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="پترو آذر آسیا" height="50">
-                <span>پترو آذر آسیا</span>
+                <img src="images/logo.png" alt="پتروآدراسیا" height="50">
+                <span>پتروآدراسیا</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -68,12 +68,13 @@
             </div>
         </div>
     </nav>
+
     <!-- هدر صفحه -->
     <header class="page-header py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>تماس با پترو آذر آسیا</h1>
+                    <h1>تماس با پتروآدراسیا</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="index.html">خانه</a></li>
@@ -96,7 +97,7 @@
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <h5>آدرس</h5>
-                            <p>تهران، خیابان ولیعصر، پلاک ۱۰۰۰، ساختمان پترو آذر آسیا، طبقه پنجم</p>
+                            <p>تهران، خیابان ولیعصر، پلاک ۱۰۰۰، ساختمان پتروآدراسیا، طبقه پنجم</p>
                         </div>
                     </div>
                 </div>
@@ -107,8 +108,8 @@
                                 <i class="fas fa-phone"></i>
                             </div>
                             <h5>تلفن</h5>
-                            <p>09140513427</p>
-                            <p>09140513427</p>
+                            <p>۰۲۱-۱۲۳۴۵۶۷۸</p>
+                            <p>۰۲۱-۸۷۶۵۴۳۲۱</p>
                         </div>
                     </div>
                 </div>
@@ -119,8 +120,8 @@
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <h5>ایمیل</h5>
-                            <p>petroazarasia23@gmail.com</p>
-                            <p>petroazarasia23sales@gmail.com</p>
+                            <p>info@petroadrasia.com</p>
+                            <p>sales@petroadrasia.com</p>
                         </div>
                     </div>
                 </div>
@@ -129,61 +130,51 @@
     </section>
 
     <!-- بخش فرم تماس -->
-      <section class="contact-form-section py-5 bg-light">
+    <section class="contact-form-section py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div class="card shadow">
                         <div class="card-body p-5">
                             <h3 class="text-center mb-4">فرم تماس با ما</h3>
-                            
-                            <form name="contact" method="POST" netlify action="/success.html">
-                                <input type="hidden" name="form-name" value="contact">
-                                
+                            <form id="contactForm">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <label for="name" class="form-label">نام و نام خانوادگی *</label>
-                                        <input type="text" class="form-control" id="name" name="name" required>
+                                        <label for="name" class="form-label">نام و نام خانوادگی</label>
+                                        <input type="text" class="form-control" id="name" required>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <label for="email" class="form-label">ایمیل *</label>
-                                        <input type="email" class="form-control" id="email" name="email" required>
+                                        <label for="email" class="form-label">ایمیل</label>
+                                        <input type="email" class="form-control" id="email" required>
                                     </div>
                                 </div>
-                                
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
                                         <label for="phone" class="form-label">تلفن تماس</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone">
+                                        <input type="tel" class="form-control" id="phone">
                                     </div>
                                     <div class="col-md-6 mb-3">
                                         <label for="company" class="form-label">نام شرکت</label>
-                                        <input type="text" class="form-control" id="company" name="company">
+                                        <input type="text" class="form-control" id="company">
                                     </div>
                                 </div>
-                                
                                 <div class="mb-3">
-                                    <label for="subject" class="form-label">موضوع *</label>
-                                    <select class="form-select" id="subject" name="subject" required>
+                                    <label for="subject" class="form-label">موضوع</label>
+                                    <select class="form-select" id="subject" required>
                                         <option value="" selected disabled>انتخاب موضوع</option>
-                                        <option value="استعلام محصول">استعلام محصول</option>
-                                        <option value="درخواست خدمات">درخواست خدمات</option>
-                                        <option value="شکایت و پیشنهاد">شکایت و پیشنهاد</option>
-                                        <option value="همکاری و مشارکت">همکاری و مشارکت</option>
-                                        <option value="سایر">سایر</option>
+                                        <option value="product">استعلام محصول</option>
+                                        <option value="service">درخواست خدمات</option>
+                                        <option value="complaint">شکایت و پیشنهاد</option>
+                                        <option value="partnership">همکاری و مشارکت</option>
+                                        <option value="other">سایر</option>
                                     </select>
                                 </div>
-                                
                                 <div class="mb-3">
-                                    <label for="message" class="form-label">پیام *</label>
-                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                                    <div class="form-text">حداقل 10 کاراکتر</div>
+                                    <label for="message" class="form-label">پیام</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
                                 </div>
-                                
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">
-                                        <i class="fas fa-paper-plane me-2"></i>ارسال پیام
-                                    </button>
+                                    <button type="submit" class="btn btn-primary btn-lg">ارسال پیام</button>
                                 </div>
                             </form>
                         </div>
@@ -199,7 +190,7 @@
             <div class="row mb-5">
                 <div class="col text-center">
                     <h2 class="section-title">موقعیت ما روی نقشه</h2>
-                    <p class="section-subtitle">دفتر مرکزی شرکت پترو آذر آسیا</p>
+                    <p class="section-subtitle">دفتر مرکزی شرکت پتروآدراسیا</p>
                 </div>
             </div>
             <div class="row">
@@ -227,10 +218,13 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                    چگونه می‌توانم از محصولات شرکت پترو آذر آسیا خریداری کنم؟
+                                    چگونه می‌توانم از محصولات شرکت پتروآدراسیا خریداری کنم؟
                                 </button>
                             </h2>
-                        
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    برای خرید محصولات می‌توانید از طریق فرم تماس با ما درخواست خود را ثبت کنید یا با بخش فروش به شماره ۰۲۱-۱۲۳۴۵۶۷۸ تماس حاصل فرمایید. کارشناسان ما در اسرع وقت با شما تماس خواهند گرفت.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -253,19 +247,19 @@
                             </h2>
                             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    شرکت پترو آذر آسیا با بهره‌گیری از ناوگان حمل و نقل مجهز، امکان ارسال محصولات به سراسر کشور را دارد. شرایط حمل و نقل بر اساس نوع محصول، مقصد و مقدار سفارش تعیین می‌شود.
+                                    شرکت پتروآدراسیا با بهره‌گیری از ناوگان حمل و نقل مجهز، امکان ارسال محصولات به سراسر کشور را دارد. شرایط حمل و نقل بر اساس نوع محصول، مقصد و مقدار سفارش تعیین می‌شود.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                                    آیا شرکت پترو آذر آسیا خدمات پس از فروش ارائه می‌دهد؟
+                                    آیا شرکت پتروآدراسیا خدمات پس از فروش ارائه می‌دهد؟
                                 </button>
                             </h2>
                             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    بله، شرکت پترو آذر آسیا خدمات پس از فروش شامل مشاوره فنی، پشتیبانی و راهنمایی در زمینه استفاده از محصولات را ارائه می‌دهد.
+                                    بله، شرکت پتروآدراسیا خدمات پس از فروش شامل مشاوره فنی، پشتیبانی و راهنمایی در زمینه استفاده از محصولات را ارائه می‌دهد.
                                 </div>
                             </div>
                         </div>
@@ -287,23 +281,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/contact.js"></script>
+    
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
