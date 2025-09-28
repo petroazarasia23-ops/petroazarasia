@@ -137,13 +137,7 @@
                     <div class="card shadow">
                         <div class="card-body p-5">
                             <h3 class="text-center mb-4">فرم تماس با ما</h3>
-                            <form 
-                                id="contactForm" 
-                                name="contact-form" 
-                                method="POST" 
-                                data-netlify="true"
-                                netlify-honeypot="bot-field"
-                            >
+                            <form id="contactForm" name="contact-form"  method="POST" data-netlify="true">
                                 <!-- فیلد مخفی برای Netlify -->
                                 <input type="hidden" name="form-name" value="contact-form">
                                 <div class="row">
@@ -161,26 +155,7 @@
                                         <label for="phone" class="form-label">تلفن تماس</label>
                                         <input type="tel" name="tel" class="form-control" id="phone">
                                     </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="company" class="form-label">نام شرکت</label>
-                                        <input type="text" name="company" class="form-control" id="company">
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="subject"  class="form-label">موضوع</label>
-                                    <select class="form-select" id="subject" name="subject" required>
-                                        <option value="" selected disabled>انتخاب موضوع</option>
-                                        <option value="product">استعلام محصول</option>
-                                        <option value="service">درخواست خدمات</option>
-                                        <option value="complaint">شکایت و پیشنهاد</option>
-                                        <option value="partnership">همکاری و مشارکت</option>
-                                        <option value="other">سایر</option>
-                                    </select>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">پیام</label>
-                                    <textarea class="form-control" id="message" rows="5" name="message" required></textarea>
-                                </div>
+                                
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-primary btn-lg">ارسال پیام</button>
                                 </div>
@@ -279,6 +254,7 @@
     
 </body>
 </html>
+
 
 
 
