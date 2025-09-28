@@ -136,11 +136,7 @@
                     <div class="card shadow">
                         <div class="card-body p-5">
                             <h3 class="text-center mb-4">فرم تماس با ما</h3>
-                            <form 
-                                id="contactForm" 
-                                name="contact-form" 
-                                method="POST" 
-                                data-netlify="true"  >
+                            <form id="contactForm" name="contact-form" method="POST" data-netlify="true" onSubmit="submit">
                                 <input type="hidden" name="form-name" value="contact-form">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -283,10 +279,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
-   
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
+
 
 
 
